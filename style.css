@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+ height: 70px;
+ background-color: #EC715F;
+ width: 1024px;
+
+}
+
+.site-logo{
+  height: 70px;
+}
+
+.nav-list{
+  height: 70px;
+
+}
+.nav-list-item{
+  color: #FAFAFA;
+  font-size: 16px;
+  display: inline-block;
+
+}
+
+a {
+ text-decoration: none;
+}
+ul {
+  display: flex;
+  margin: 0;
+}
+
+li{
+   margin: 0 0 0 15px;
+   font-size: 16px;
+}
