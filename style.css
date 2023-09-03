@@ -7,7 +7,7 @@
 header {
  height: 70px;
  background-color: #EC715F;
- width: 1024px;
+ width: 100%;
 
 }
 
@@ -38,6 +38,55 @@ nav ul li a {
   font-size: 16px;
 
 }
-nav li{
+
+.main-visual {
+  width: 100%;
+  height: 650px;
+  background-image: url(img/mv.png);
+  background-size: contain;
+}
+
+.main-visual-content {
+  text-align: center;
+  color: #FAFAFA;
+  padding-top: 200px;
+}
+
+.main-visual-title {
+  font-size: 64px;
+}
+
+.main-visual-text {
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.portfolio{
+  background-color: #ECEFF1;
+  text-align: center;
+}
+
+.portfolio-title {
+  font-size: 32px;
+  padding-top: 90px;
+  color: #000000;
+  border-bottom: solid 3px #EC715F;
+  display: inline-block;
+}
+
+.portfolio-text {
+  font-size: 16px;
+  color: #000000;
 
 }
+
+footer {
+  background-color: #EC715F;
+  height: 60px;
+  width: 100%;
+  line-height: 120px;
+  font-size: 16px;
+  text-align: center;
+  color: #FAFAFA;
+}
+
