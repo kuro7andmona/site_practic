@@ -64,11 +64,13 @@ nav ul li a {
 .portfolio{
   background-color: #ECEFF1;
   text-align: center;
+  padding-bottom: 90px;
 }
 
 .portfolio-title {
   font-size: 32px;
   padding-top: 90px;
+  padding-bottom: 8px;
   color: #000000;
   border-bottom: solid 3px #EC715F;
   display: inline-block;
@@ -76,8 +78,40 @@ nav ul li a {
 
 .portfolio-text {
   font-size: 16px;
+  padding: 30px;
   color: #000000;
+}
 
+.portfolio-image {
+  width: 300px;
+  height: 250px;
+  border: 10px solid #ECEFF1;
+}
+
+.portfolio-visual {
+  width: 920px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.feature {
+  width: 980px;
+  text-align: center;
+}
+
+.feature-title {
+  font-size: 32px;
+  padding-top: 90px;
+  padding-bottom: 8px;
+  border-bottom: solid 3px #EC715F;
+  display: inline-block;
+  color: #000000;
+}
+.feature-text {
+  font-size: 16px;
+  padding:  30px;
+  color:#000000;
 }
 
 footer {
