@@ -97,14 +97,16 @@ nav ul li a {
 
 .feature {
   width: 980px;
+  padding-top: 90px;
   text-align: center;
+  margin: auto;
 }
 
 .feature-title {
   font-size: 32px;
   padding-top: 90px;
   padding-bottom: 8px;
-  border-bottom: solid 3px #EC715F;
+  border-bottom: solid 3px  #EC715F;
   display: inline-block;
   color: #000000;
 }
@@ -112,6 +114,32 @@ nav ul li a {
   font-size: 16px;
   padding:  30px;
   color:#000000;
+}
+
+.feature-visual {
+  display: flex;
+  width: 980px;
+  padding-bottom: 90px;
+}
+
+.strenght {
+  width:320px;
+  height: auto;
+  margin: 10px;
+}
+
+
+.strength-title {
+  font-size: 20px;
+  padding: 10px;
+  color: #000000;
+}
+
+.strength-text {
+  font-size: 16px;
+  color: #000000;
+  text-align: justify;
+  text-align-last: justify;
 }
 
 footer {
