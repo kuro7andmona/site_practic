@@ -72,8 +72,23 @@ nav ul li a {
   padding-top: 90px;
   padding-bottom: 8px;
   color: #000000;
-  border-bottom: solid 3px #EC715F;
   display: inline-block;
+  position:relative;
+  font-weight: bold;
+}
+
+.portfolio-title::after {
+  content: '';
+  position:  relative;
+  left: 50%;
+  bottom: 0px;/*線の上下位置*/
+  display: block;
+  width: 70px;/*線の長さ*/
+  height: 3px;/*線の太さ*/
+  -webkit-transform: translateX(-50%);
+  position: absolute;
+  background-color: #EC715F;/*線の色*/
+
 }
 
 .portfolio-text {
@@ -104,11 +119,26 @@ nav ul li a {
 
 .feature-title {
   font-size: 32px;
-  padding-top: 90px;
+  /*padding-top: 90px;*/
   padding-bottom: 8px;
-  border-bottom: solid 3px  #EC715F;
+  position:relative;
   display: inline-block;
   color: #000000;
+  font-weight: bold;
+}
+
+.feature-title::after {
+  content: '';
+  position:  relative;
+  left: 50%;
+  bottom: 0px;/*線の上下位置*/
+  display: block;
+  width: 70px;/*線の長さ*/
+  height: 3px;/*線の太さ*/
+  -webkit-transform: translateX(-50%);
+  position: absolute;
+  background-color: #EC715F;/*線の色*/
+
 }
 .feature-text {
   font-size: 16px;
@@ -130,9 +160,10 @@ nav ul li a {
 
 
 .strength-title {
-  font-size: 20px;
+  font-size: 32px;
   padding: 10px;
   color: #000000;
+  font-weight: bold;
 }
 
 .strength-text {
@@ -140,6 +171,77 @@ nav ul li a {
   color: #000000;
   text-align: justify;
   text-align-last: justify;
+}
+
+.profile {
+  width: 1024px;
+  text-align: center;
+  padding-bottom: 90px;
+  background-color: #ECEFF1;
+
+}
+
+.profile-title {
+  font-size: 32px;
+  padding: 10px;
+  color: #000000;
+  font-weight: bold;
+  position:relative;
+}
+
+.profile-title::after {
+  content: '';
+  position:  relative;
+  left: 50%;
+  bottom: 0px;/*線の上下位置*/
+  display: block;
+  width: 70px;/*線の長さ*/
+  height: 3px;/*線の太さ*/
+  -webkit-transform: translateX(-50%);
+  position: absolute;
+  background-color: #EC715F;/*線の色*/
+
+}
+
+.profile-text {
+  font-size: 16px;
+  padding:  30px;
+  color:#000000;
+}
+
+.image {
+  width: 512px;
+}
+.profile-image {
+  width: 250px;
+  height:250px;
+  border-radius:50%;
+}
+
+.introduction {
+  width: 512px;
+  display: flex;
+}
+
+.myname-title {
+  font-weight: bold;
+  font-size: 20px
+}
+
+.myname-text {
+  font-size: 16px;
+  color: #000000;
+  padding-bottom: 20px;
+}
+
+.myskills-title {
+  font-weight: bold;
+  font-size: 20px
+}
+
+.myskills-text {
+  font-size: 16px;
+  color: #000000;
 }
 
 footer {
