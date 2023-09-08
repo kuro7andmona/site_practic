@@ -211,7 +211,11 @@ nav ul li a {
 
 .image {
   width: 512px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
 }
+
 .profile-image {
   width: 250px;
   height:250px;
@@ -221,6 +225,11 @@ nav ul li a {
 .introduction {
   width: 512px;
   display: flex;
+}
+
+.myname {
+  text-align:justify;
+
 }
 
 .myname-title {
