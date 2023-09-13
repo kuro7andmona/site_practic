@@ -174,11 +174,12 @@ nav ul li a {
 }
 
 .profile {
-  width: 1024px;
   text-align: center;
   padding-bottom: 90px;
   background-color: #ECEFF1;
-
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 
 }
 
@@ -223,9 +224,15 @@ nav ul li a {
   border-radius:50%;
 }
 
+.profile-visual {
+  display: flex;
+  justify-content: center;
+}
+
 .introduction {
   width: 512px;
   display: flex;
+  flex-direction: column;
 }
 
 .myname {
@@ -265,11 +272,45 @@ nav ul li a {
   color: #000000;
 }
 
+.contact {
+  width: 800px;
+  padding-top: 90px;
+  text-align: center;
+}
+
+.contact-title {
+  font-weight: bold;
+  font-size: 32px;
+  color: #000000;
+  position:relative;
+  text-align: center;
+
+}
+
+.contact-title::after {
+  content: '';
+  position:  relative;
+  left: 50%;
+  bottom: 0px;/*線の上下位置*/
+  display: block;
+  width: 70px;/*線の長さ*/
+  height: 3px;/*線の太さ*/
+  -webkit-transform: translateX(-50%);
+  position: absolute;
+  background-color: #EC715F;/*線の色*/
+
+}
+
+.contact-text {
+  font-size: 16px;
+  color: #000000;
+  padding: 30px;
+}
+
 footer {
   background-color: #EC715F;
-  height: 60px;
   width: 100%;
-  line-height: 120px;
+  line-height: 60px;
   font-size: 16px;
   text-align: center;
   color: #FAFAFA;
