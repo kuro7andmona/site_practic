@@ -275,7 +275,11 @@ nav ul li a {
 .contact {
   width: 800px;
   padding-top: 90px;
+  padding-bottom: 90px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .contact-title {
@@ -307,6 +311,59 @@ nav ul li a {
   padding: 30px;
 }
 
+.contact-visual {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.personal-data {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.mail {
+  text-align:justify;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-bottom: 20px;
+}
+
+.mail-title {
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.tell {
+  text-align:justify;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.tell-title {
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.sns {
+  width: 400px;
+}
+
+.sns-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.i {
+  size: 50px;
+  padding: 20 0px;
+}
 footer {
   background-color: #EC715F;
   width: 100%;
