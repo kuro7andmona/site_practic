@@ -54,6 +54,7 @@ nav ul li a {
 
 .main-visual-title {
   font-size: 64px;
+  font-weight: bold;
 }
 
 .main-visual-text {
@@ -273,7 +274,7 @@ nav ul li a {
 }
 
 .contact {
-  width: 800px;
+  /*width: 800px;*/
   padding-top: 90px;
   padding-bottom: 90px;
   text-align: center;
@@ -314,17 +315,19 @@ nav ul li a {
 .contact-visual {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  justify-content: center;
   justify-content: space-evenly;
 }
 
 .personal-data {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
+  align-content: center;
   width: 400px;
 }
+
 
 .mail {
   text-align:justify;
@@ -354,7 +357,6 @@ nav ul li a {
 }
 
 .sns {
-  padding-top: 30px;
   width: 400px;
   display: flex;
   flex-direction: column;
@@ -362,13 +364,24 @@ nav ul li a {
 
 .sns-title {
   font-size: 20px;
+  padding-bottom: 5px;
   font-weight: bold;
+  display: flex;
 }
 
 .sns-icon {
   display: flex;
 
 }
+
+.facebook i {
+  margin-right: 20px;
+}
+
+.twitter i {
+  margin-right: 20px;
+}
+
 footer {
   background-color: #EC715F;
   width: 100%;
