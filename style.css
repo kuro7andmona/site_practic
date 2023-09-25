@@ -274,7 +274,7 @@ nav ul li a {
 }
 
 .contact {
-  /*width: 800px;*/
+  width: 800px;
   padding-top: 90px;
   padding-bottom: 90px;
   text-align: center;
@@ -286,6 +286,7 @@ nav ul li a {
 .contact-title {
   font-weight: bold;
   font-size: 32px;
+  padding: 10px;
   color: #000000;
   position:relative;
   text-align: center;
@@ -360,6 +361,7 @@ nav ul li a {
   width: 400px;
   display: flex;
   flex-direction: column;
+  align-content: center;
 }
 
 .sns-title {
@@ -380,6 +382,10 @@ nav ul li a {
 
 .twitter i {
   margin-right: 20px;
+}
+
+a {
+  color: black;
 }
 
 footer {
