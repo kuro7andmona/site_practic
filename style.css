@@ -7,7 +7,7 @@
 header {
  height: 70px;
  background-color: #EC715F;
- width: 100%;
+ width: 1024px;
 
 }
 
@@ -39,6 +39,10 @@ nav ul li a {
 
 }
 
+main {
+
+}
+
 .main-visual {
   width: 100%;
   height: 650px;
@@ -66,6 +70,10 @@ nav ul li a {
   background-color: #ECEFF1;
   text-align: center;
   padding-bottom: 90px;
+  /*width: 920px;*/
+  /*flex-direction: column;*/
+  /*display: flex;*/
+  margin: 0 auto;
 }
 
 .portfolio-title {
@@ -80,7 +88,7 @@ nav ul li a {
 
 .portfolio-title::after {
   content: '';
-  position:  relative;
+  /*position:  relative;*/
   left: 50%;
   bottom: 0px;/*線の上下位置*/
   display: block;
@@ -101,7 +109,8 @@ nav ul li a {
 .portfolio-image {
   width: 300px;
   height: 250px;
-  border: 10px solid #ECEFF1;
+  /*border: 10px solid #ECEFF1;*/
+  margin: 10px;
 }
 
 .portfolio-visual {
@@ -112,10 +121,10 @@ nav ul li a {
 }
 
 .feature {
-  width: 980px;
   padding-top: 90px;
   text-align: center;
   margin: auto;
+  width: 980px;
 }
 
 .feature-title {
@@ -181,7 +190,7 @@ nav ul li a {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-
+  width: 1024px;
 }
 
 .profile-title {
@@ -274,17 +283,20 @@ nav ul li a {
 }
 
 .contact {
-  width: 800px;
   padding-top: 90px;
   padding-bottom: 90px;
   text-align: center;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  width:800px;
 }
+
+
 
 .contact-title {
   font-weight: bold;
+  display: inline-block;
   font-size: 32px;
   padding: 10px;
   color: #000000;
@@ -386,6 +398,18 @@ nav ul li a {
 
 a {
   color: black;
+}
+
+.address {
+  font-size: 16px;
+}
+
+.number {
+  font-size: 16px;
+}
+
+.main {
+  text-align: center;
 }
 
 footer {
