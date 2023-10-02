@@ -7,7 +7,7 @@
 header {
  height: 70px;
  background-color: #EC715F;
- width: 1024px;
+ /*width: 1024px;*/
 
 }
 
@@ -71,8 +71,10 @@ main {
   text-align: center;
   padding-bottom: 90px;
   /*width: 920px;*/
-  /*flex-direction: column;*/
-  /*display: flex;*/
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
   margin: 0 auto;
 }
 
@@ -106,12 +108,17 @@ main {
   color: #000000;
 }
 
-.portfolio-image {
-  width: 300px;
-  height: 250px;
-  /*border: 10px solid #ECEFF1;*/
-  margin: 10px;
+.portfolio-visual1 {
+  display: flex;
+  background-image: url(img/sketch.jpg), url(img/websuku.png), url(img/write.jpg), url(img/webcamp.png), url(img/talk.jpg), url(img/webcamp-mother.png);;
+  width: 920px;
+  height: 500px;
+  background-position: top left, top center, top right, bottom left,  bottom center, bottom right;;
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 300px 250px, 300px 250px, 300px 250px, 300px 250px, 300px 250px, 300px 250px;
 }
+
+
 
 .portfolio-visual {
   width: 920px;
@@ -190,7 +197,9 @@ main {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 1024px;
+  /*width: 1024px;*/
+  padding-top: 90px;
+  margin: 0 auto;
 }
 
 .profile-title {
@@ -217,7 +226,8 @@ main {
 
 .profile-text {
   font-size: 16px;
-  padding:  30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   color:#000000;
 }
 
@@ -290,6 +300,7 @@ main {
   flex-direction: column;
   flex-wrap: wrap;
   width:800px;
+  margin: 0 auto;
 }
 
 
