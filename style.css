@@ -7,7 +7,6 @@
 header {
  height: 70px;
  background-color: #EC715F;
- /*width: 1024px;*/
 
 }
 
@@ -39,9 +38,6 @@ nav ul li a {
 
 }
 
-main {
-
-}
 
 .main-visual {
   width: 100%;
@@ -70,7 +66,6 @@ main {
   background-color: #ECEFF1;
   text-align: center;
   padding-bottom: 90px;
-  /*width: 920px;*/
   flex-direction: column;
   display: flex;
   flex-wrap: wrap;
@@ -146,7 +141,7 @@ main {
 
 .feature-title::after {
   content: '';
-  position:  relative;
+  /*position:  relative;*/
   left: 50%;
   bottom: 0px;/*線の上下位置*/
   display: block;
@@ -212,7 +207,7 @@ main {
 
 .profile-title::after {
   content: '';
-  position:  relative;
+  /*position:  relative;*/
   left: 50%;
   bottom: 0px;/*線の上下位置*/
   display: block;
@@ -318,7 +313,7 @@ main {
 
 .contact-title::after {
   content: '';
-  position:  relative;
+  /*position:  relative;*/
   left: 50%;
   bottom: 0px;/*線の上下位置*/
   display: block;
