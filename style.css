@@ -85,7 +85,6 @@ nav ul li a {
 
 .portfolio-title::after {
   content: '';
-  /*position:  relative;*/
   left: 50%;
   bottom: 0px;/*線の上下位置*/
   display: block;
@@ -131,7 +130,6 @@ nav ul li a {
 
 .feature-title {
   font-size: 32px;
-  /*padding-top: 90px;*/
   padding-bottom: 8px;
   position:relative;
   display: inline-block;
@@ -141,7 +139,6 @@ nav ul li a {
 
 .feature-title::after {
   content: '';
-  /*position:  relative;*/
   left: 50%;
   bottom: 0px;/*線の上下位置*/
   display: block;
@@ -192,7 +189,6 @@ nav ul li a {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  /*width: 1024px;*/
   padding-top: 90px;
   margin: 0 auto;
 }
@@ -207,7 +203,6 @@ nav ul li a {
 
 .profile-title::after {
   content: '';
-  /*position:  relative;*/
   left: 50%;
   bottom: 0px;/*線の上下位置*/
   display: block;
@@ -313,7 +308,6 @@ nav ul li a {
 
 .contact-title::after {
   content: '';
-  /*position:  relative;*/
   left: 50%;
   bottom: 0px;/*線の上下位置*/
   display: block;
