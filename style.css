@@ -70,7 +70,8 @@ nav ul li a {
   display: flex;
   flex-wrap: wrap;
   align-content: center;
-  margin: 0 auto;
+  margin: auto;
+  width: 1024px;
 }
 
 .portfolio-title {
@@ -183,15 +184,17 @@ nav ul li a {
 }
 
 .profile {
-  text-align: center;
   padding-bottom: 90px;
-  background-color: #ECEFF1;
+  padding-top: 90px;
+  text-align: center;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  padding-top: 90px;
+  background-color: #ECEFF1;
+  width: 1024px;
   margin: 0 auto;
 }
+
 
 .profile-title {
   font-size: 32px;
@@ -421,3 +424,28 @@ footer {
   color: #FAFAFA;
 }
 
+@media screen and (min-width: 767px) {
+  header {
+    width: 90%;
+  }
+
+  .main-visual {
+    width: 90%;
+  }
+
+  .portfolio {
+     width: 90%;
+  }
+
+  .feature {
+     width: 90%;
+  }
+
+  .profile {
+     width: 90%;
+  }
+
+  .contact {
+    width: 90%;
+  }
+}
