@@ -6,6 +6,7 @@
 
 header {
  height: 70px;
+ width: 1024px;
  background-color: #EC715F;
 
 }
@@ -448,4 +449,9 @@ footer {
   .contact {
     width: 90%;
   }
+}
+
+@media screen and (max-width: 1024px) {
+
+
 }
