@@ -72,7 +72,6 @@ nav ul li a {
   display: flex;
   flex-wrap: wrap;
   align-content: center;
-  margin: auto;
   width: 1024px;
 }
 
@@ -195,6 +194,7 @@ nav ul li a {
   background-color: #ECEFF1;
   width: 1024px;
   margin: 0 auto;
+
 }
 
 
@@ -424,9 +424,10 @@ footer {
   font-size: 16px;
   text-align: center;
   color: #FAFAFA;
+
 }
 
-
+/*画面サイズが７６７以下の場合*/
 @media screen and (max-width: 767px) {
   header {
     width: 90%;
@@ -445,6 +446,36 @@ footer {
 
   footer {
     width: 90%;
+  }
+
+}
+
+/*画面幅が１０２４以上の場合*/
+@media screen and (min-width: 1024px) {
+  header {
+    width: 100%;
+  }
+  .main-visual {
+    width: 100%;
+  }
+
+  .main-visual-content {
+    width: 100%;
+  }
+
+  main {
+    width: 100%;
+  }
+  .portfolio {
+    width: 100%;
+  }
+
+  .profile {
+    width: 100%;
+  }
+
+  footer {
+    width: 100%;
   }
 
 }
